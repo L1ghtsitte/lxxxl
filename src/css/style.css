@@ -1,0 +1,437 @@
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Герой секция */
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Формы и контейнеры */
+.booking-form, .menu, .about, .contact, .confirmation, .reviews {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.nt {
+    width: 400px; 
+    height: 200px;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Герой секция */
+.hero {
+    text-align: center;
+    padding: 20px;
+    background-color: #e2e2e2;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Формы и контейнеры */
+.booking-form, .menu, .about, .contact, .confirmation, .reviews {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Слайдер */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+}
+
+/* Формы */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Карта */
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+/* Мобильная адаптивность */
+@media (max-width: 768px) {
+    .booking-form, .menu, .about, .contact, .confirmation, .reviews {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+}
+
+
+/* Стили для отзывов и звездного рейтинга */
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    color: black;
+    font-size: 2em;
+    padding: 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: #f5b301;
+}
+
+/* Основные стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+/* Шапка */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Формы и контейнеры */
+.booking-form, .menu, .about, .contact, .confirmation, .reviews {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Стили для отзывов и звездного рейтинга */
+.rating {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    display: inline-block;
+}
+
+.rating input {
+    display: none;
+}
+
+.rating label {
+    color: #ddd;
+    font-size: 2em;
+    padding: 0;
+    cursor: pointer;
+}
+
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input:checked ~ label {
+    color: #f5b301;
+}
+
+.review {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.review h3 {
+    margin: 0;
+}
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для слайдера */
+.slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+}
+
+
+.review {
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.review h3 {
+    margin: 0;
+}
+
+
+/* Подвал */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Слайдер */
+.slider {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.slider img {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+.slider img.active {
+    display: block;
+}
+
+/* Формы */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form textarea, form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+/* Карта */
+#map {
+    width: 100%;
+    height: 400px;
+}
+
+.map {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+
+/* Мобильная адаптивность */
+@media (max-width: 768px) {
+    .booking-form, .menu, .about, .contact, .confirmation, .reviews {
+        width: 95%;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}

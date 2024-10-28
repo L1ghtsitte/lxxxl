@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование мест в ресторане</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать в наш ресторан</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="menu.html">Меню</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="contact.html">Контакты</a></li>
+                <li><a href="reviews.html">Отзывы</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <img src="img/slider1.jpg" alt="Слайд 1">
+                <img src="img/slider2.jpg" alt="Слайд 2">
+            </div>
+            <h2>Забронируйте столик онлайн</h2>
+        </section>
+        <section class="booking-form">
+            <h3>Форма бронирования</h3>
+            <form id="bookingForm">
+                <label for="name">Имя:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="date">Дата:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Время:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="guests">Количество гостей:</label>
+                <input type="number" id="guests" name="guests" required>
+                
+                <button type="submit">Забронировать</button>
+            </form>
+        </section>
+        <section class="map">
+            <h2>Наше местоположение</h2>
+            <div id="map">
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A46cfcaa9b2bb061e6e10730ed775b05021ccad0e5de9139b7ccbe0bcf779d3e4&amp;source=constructor" width="1280" height="720" frameborder="0"></iframe>
+            </div>
+        </section>
+        <div class="nt">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Наш Ресторан. Все права защищены.</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
